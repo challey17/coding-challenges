@@ -7,7 +7,7 @@
 //EXAMPLES
 
 // same([1,2,3], [4,1,9]) // true
-// same([1,2,1], [4,1,4]) // false, must be same frequency
+// same([1,2,1], [4,1,]) // false, must be same frequency
 
 // NESTED LOOP SOLUTION
 function same(arr1, arr2) {
