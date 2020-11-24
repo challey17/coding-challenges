@@ -14,4 +14,8 @@ var isSquare = function (n) {
   return Math.sqrt(n) % 1 === 0;
 };
 
-console.log(isSquare(25)); //true
+const betterSolution = (n) => Number.isInteger(Math.sqrt(n));
+
+//console.log(isSquare(25)); //true
+
+console.log(betterSolution(25)); //true
